@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>No title+</title>
+		<meta charset="utf-8" />
+		<link rel=stylesheet href="css/bootstrap.css.css" />
+		<link rel=stylesheet href="css/index.css" />
+		<script type="text/javascript" src="JS/bootstrap.js"></script>
+		<script type="text/javascript" src="JS/jquery.min.js" ></script>
+	</head>
+	<body>
+       <!-- 加了 nav之后 点和下划线都会去掉 并且居在导航栏中间 -->
+        <div class="nav navbar navbar-default" > <!-- 导航栏 -->
+		   <div class="container"> <!-- container 是一个容器 -->
+		   	  <div class="navbar-header"><!-- header是标题 navbar是导航栏 -->
+		   	  	 <div class="navbar-brand">No title</div><!-- brand相当于一个商标 -->
+		   	  </div>
+		   	  <ul class="nav navbar-nav "> <!-- 导航栏列表 -->
+		   	  	 <li><a>home page</a></li>
+		   	  	 <li><a>Videos</a></li>
+		   	  	 <li><a>Music</a></li>
+		   	  	 <li><a>News</a></li>
+		   	  	 <li><a>Article</a></li>
+		   	  </ul>
+		   	  <ul class="nav navbar-nav navbar-right"> <!-- navbar-right 向右对齐-->
+		   	  	 <li><a>Login</a></li>
+		   	  	 <li><a>Register</a></li>
+		   	  </ul>
+		   </div>   
+		</div>
+		<!-- 新闻窗口 -->
+		<div class="container">
+		  <div class="row"> <!-- row作用就是吧编剧去除 以方便对齐 -->
+	  	     <!-- 竖排导航栏 -->
+		  	 <div class="col-lg-2"> <!-- lg是最大 xs是最小 2是将网页的长分为12份中的2份-->
+			    <ul class="list-group"> <!-- list-group 是一个列表组合 -->
+			    	<div class="list-group-item">Title to be added </div> <!-- list-group-item是list-group列表组合中的一个-->
+			    	<div class="list-group-item">Title to be added </div>
+			    	<div class="list-group-item">Title to be added </div>
+			    	<div class="list-group-item">Title to be added </div>
+			    	<div class="list-group-item">Title to be added </div>
+			    	<div class="list-group-item">Title to be added </div>
+			    </ul>
+		     </div>
+		     <!-- 新闻界面 -->
+		     <div class="col-lg-7"> <!-- lg是最大 xs是最小 7是将网页的长分为12份中的7份-->
+			    <div class="ab-list"><!--定义一个名为ab的列表组合 -->
+			        <!-- 新闻01 -->
+			    	<div class="ab-list-item clearfix"><!--ab列表组合的单个元素 -->
+			    		<div class="col-lg-6"><!--将div图片设为12份图片占其中的6份 -->
+			                <img src="image/NASDAQ.PNG" />
+			    		</div>
+			    		<div class="col-lg-6"><!--将div标题设为12份图片占其中的6份 -->
+			                <div><a class="title" href="https://www.bilibili.com/read/cv328714"><b>Written at B station listing -- open letter to users. </b></a></div>
+			                <div class="info">CHENRUI 3-28 455.3万阅读 5.3万评论</div>
+			    		</div>
+			    	</div>
+			    	<!-- 新闻02 -->
+			    	<hr>
+			    	<div class="ab-list-item clearfix"><!--ab列表组合的单个元素 -->
+			    		<div class="col-lg-6"><!--将div图片设为12份图片占其中的6份 -->
+			                <img src="image/MIANJIN.PNG" />
+			    		</div>
+			    		<div class="col-lg-6"><!--将div标题设为12份图片占其中的6份 -->
+			                <div><a class="title" href="https://www.bilibili.com/read/cv311249?from=1001"><b>Who is the gluten? </b></a></div>
+			                <div class="info">DON_PWP 3-22 32.1万阅读 838评论</div>
+			    		</div>
+			    	</div>
+			    	<!-- 新闻03 -->
+			    	<hr>
+			    	<div class="ab-list-item clearfix"><!--ab列表组合的单个元素 -->
+			    		<div class="col-lg-6"><!--将div图片设为12份图片占其中的6份 -->
+			                <img src="image/LV2.PNG" />
+			    		</div>
+			    		<div class="col-lg-6"><!--将div标题设为12份图片占其中的6份 -->
+			                <div><a class="title"><b>Lv2 and above user column entries are now fully open. </b></a></div>
+			                <div class="info">哔哩哔哩专栏 3-28 3.8万阅读 355评论</div>
+			    		</div>
+			    	</div>
+			    	<hr>
+			    </div>
+		     </div>
+		     <div class="col-lg-3"> <!-- lg是最大 xs是最小 3是将网页的长分为12份中的3份-->
+			      <div>
+			      	 <input type="search" class="form-control"> <!-- form control是将搜索框增加一个边框 -->
+			      </div>
+			      <hr>
+			      <div class="jumbotron"> <!-- iumbotron是一个面板 -->
+			      	  <p>Address : China Shanghai</p>
+			      	  <p>E-mail : gdgztyx@126.com</p>
+			      </div>
+		     </div>
+		  </div>
+		</div>
+	</body>
+</html>
