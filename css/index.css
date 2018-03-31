@@ -1,0 +1,26 @@
+.list-group-item:hover
+{
+	background: #BFBFBF ;
+}
+img
+{
+	display: block ; /*设定img为块状元素 随div的大小而缩放 */
+	max-width: 100% ;
+}
+.title
+{
+	color: #000000 ;
+	font: 20px ;
+	font-family: Consolas, Andale Mono, Lucida Console, Lucida Sans Typewriter, Monaco, Courier New, monospace ;
+	text-decoration: none ; /*删除下划线*/
+}
+.info
+{
+	font: 10px;
+	color: #5E5C5C;
+}
+.jumbotron p /*jumbotron下的p标签 */
+{
+	
+	font-size: 15px ;/*改变字体*/
+}
